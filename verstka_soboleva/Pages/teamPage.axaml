@@ -1,0 +1,50 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="verstka_soboleva.teamPage">
+  <Grid RowDefinitions="Auto,Auto,Auto,*" Margin="5">
+            
+        <TextBlock Grid.Row="0" Text="Команда" FontWeight="Bold" FontSize="20" Margin="0,10"/>
+
+
+            <Border  Classes="card" Grid.Row="1" Height="350" Width="300" CornerRadius="10" BoxShadow="0 0 5 0 #40000000" Padding="20" HorizontalAlignment="Left">
+                <Grid ColumnDefinitions="Auto,Auto,Auto" RowDefinitions="Auto,Auto, Auto,Auto,Auto,Auto, Auto,Auto,Auto, Auto,Auto,Auto, Auto,Auto,Auto" ColumnSpacing="10" RowSpacing="10">
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Сотрудники" FontWeight="Bold" Margin="0,10"/>
+                        <TextBlock  Grid.Column="0" Grid.Row="1" Text="Ангелина Соболева"/>
+                         <TextBlock  Grid.Column="0" Grid.Row="2" Text="Рарити"/>
+                        <TextBlock  Grid.Column="0" Grid.Row="3" Text="Эппл Джек"/>
+                        <TextBlock  Grid.Column="0" Grid.Row="4" Text="Твайлайт Спаркл"/>
+                         <TextBlock  Grid.Column="0" Grid.Row="5" Text="Рейнбоу Дэш"/>
+                        <TextBlock  Grid.Column="0" Grid.Row="6" Text="Флаттершай"/>
+                        <TextBlock  Grid.Column="0" Grid.Row="7" Text="Пинки Пай"/>
+                         <TextBlock  Grid.Column="0" Grid.Row="8" Text="Джесси Пинкман"/>
+                    <Border Grid.Column="1" Grid.Row="1" Background="#40FF00F4" Padding="2" Width="80" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Директор" Foreground="#A6249F" HorizontalAlignment="Center"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="2" Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="3" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="4" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="5" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="6" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="7" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="8" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+</UserControl>

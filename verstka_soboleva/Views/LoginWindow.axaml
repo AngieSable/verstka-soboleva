@@ -1,0 +1,37 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="verstka_soboleva.LoginWindow"
+        Title="LoginWindow"
+        Width="400"
+        Height="430"
+        WindowStartupLocation="CenterScreen"
+        CanResize="False">
+
+         <Grid RowDefinitions="*,Auto,*">
+
+        <Border  Classes="card" Grid.Row="1" Width="300" Padding="25" CornerRadius="12">
+
+            <StackPanel Spacing="12">
+
+                <TextBlock Text="Авторизация" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Логин" FontSize="13"/>
+
+                <TextBox x:Name="LoginTb" Height="38" CornerRadius="7" Watermark="Введите логин"/>
+
+                <TextBlock Text="Пароль" FontSize="13"/>
+
+                <TextBox x:Name="PasswordTb" Height="38" CornerRadius="7" PasswordChar="*" Watermark="Введите пароль"/>
+
+                <TextBlock x:Name="ErrorTb" Foreground="#D32F2F" FontSize="12" TextWrapping="Wrap" IsVisible="False"/>
+
+                <Button Content="Войти" Height="38" Margin="0,5,0,0" CornerRadius="7" Click="LogInClick"/>
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="verstka_soboleva.calendarPage">
+   <Grid RowDefinitions="Auto,Auto,Auto,*" Margin="5">
+            
+        <TextBlock Grid.Row="0" Text="Календарь" FontWeight="Bold" FontSize="20" Margin="0,10"/>
+
+        
+        <Border  Classes="card"  Grid.Row="1" Height="400" Width="400" CornerRadius="10" BoxShadow="0 0 5 0 #40000000" Padding="20" HorizontalAlignment="Left">
+       
+       <Calendar  CornerRadius="10" Height="300" Width="370" />
+
+        </Border>
+
+        </Grid>
+</UserControl>

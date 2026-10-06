@@ -1,0 +1,92 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="verstka_soboleva.projectsPage">
+ <Grid RowDefinitions="Auto,Auto" Margin="5">
+            
+        <TextBlock Grid.Row="0" Text="Проекты" FontWeight="Bold" FontSize="20" Margin="0,10"/>
+
+        <Grid Grid.Row="1" ColumnDefinitions="Auto, Auto,Auto" Margin="0,10" ColumnSpacing="20">
+        <StackPanel Grid.Column="0" Orientation="Vertical" Spacing="20">
+             <Border Classes="card" Height="570" Width="800" CornerRadius="10" BoxShadow="0 0 5 0 #40000000" Padding="20">
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*,*,*,*,*,*,*" ColumnSpacing="20">
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="Активные проекты" FontWeight="Bold" Margin="0,10"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="Avalonia UI Redesign" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" Margin="0,5">
+                    <Border Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="65%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="65" Height="5" Width="230" Foreground="#4B1BC4"/>
+
+                </StackPanel>
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="Мобильное приложение" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical" Margin="0,5">
+                    <Border Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="40%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="40" Height="5" Width="230" Foreground="#5E80E6"/>
+                </StackPanel>
+                <TextBlock Grid.Column="0" Grid.Row="3" Text="Корпоративный сайт" Margin="0,5"/>
+                 <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Vertical" Margin="0,5">
+                    <Border Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="80%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="80" Height="5" Width="230" Foreground="#73B04F"/>
+                </StackPanel>
+
+                 <TextBlock Grid.Column="0" Grid.Row="4" Text="Avalonia UI Redesign" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="4" Orientation="Vertical" Margin="0,5">
+                   <Border Grid.Column="1" Grid.Row="3" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="50%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="50" Height="5" Width="230" Foreground="#5E80E6"/>
+
+                </StackPanel>
+                 <TextBlock Grid.Column="0" Grid.Row="5" Text="Avalonia UI Redesign" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="5" Orientation="Vertical" Margin="0,5">
+                    <Border Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="90%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="90" Height="5" Width="230" Foreground="#73B04F"/>
+
+                </StackPanel>
+                   <TextBlock Grid.Column="0" Grid.Row="6" Text="Avalonia UI Redesign" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="6" Orientation="Vertical" Margin="0,5">
+                    <Border Grid.Column="1" Grid.Row="3" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                   <TextBlock Text="75%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="75" Height="5" Width="230" Foreground="#73B04F"/>
+
+                </StackPanel>
+                 <TextBlock Grid.Column="0" Grid.Row="7" Text="Avalonia UI Redesign" Margin="0,5"/>
+                <StackPanel Grid.Column="1" Grid.Row="7" Orientation="Vertical" Margin="0,5">
+                    <Border Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="65%" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                    <ProgressBar Minimum="0" Maximum="100" Value="65" Height="5" Width="230" Foreground="#4B1BC4"/>
+
+                </StackPanel>
+
+                <TextBlock Grid.Column="2" Grid.Row="1" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="2" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="3" Text="13.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="4" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="5" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="6" Text="13.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="7" Text="13.05.2024" Margin="0,10"/>
+                </Grid>
+            </Border>
+        </StackPanel>
+        </Grid>
+
+        </Grid>
+</UserControl>

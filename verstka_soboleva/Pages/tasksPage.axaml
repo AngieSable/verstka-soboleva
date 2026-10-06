@@ -1,0 +1,88 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="verstka_soboleva.tasksPage">
+  <Grid RowDefinitions="Auto,Auto,Auto,*" Margin="5">
+            
+        <TextBlock Grid.Row="0" Text="Задачи" FontWeight="Bold" FontSize="20" Margin="0,10"/>
+
+
+            <Border  Classes="card" Grid.Row="1" Height="600" Width="520" CornerRadius="10" BoxShadow="0 0 5 0 #40000000" Padding="20" HorizontalAlignment="Left">
+                <Grid ColumnDefinitions="Auto,Auto,Auto" RowDefinitions="Auto,Auto, Auto,Auto,Auto,Auto, Auto,Auto,Auto, Auto,Auto,Auto, Auto,Auto,Auto" ColumnSpacing="10">
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Последние задачи" FontWeight="Bold" Margin="0,10"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="1" Content="Разработать макет главной страницы"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="2" Content="Реализовать авторизацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="3" Content="Подготовить презентацию"/>
+                         <CheckBox  Grid.Column="0" Grid.Row="4" Content="Разработать макет главной страницы"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="5" Content="Реализовать авторизацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="6" Content="Подготовить презентацию"/>
+                         <CheckBox  Grid.Column="0" Grid.Row="7" Content="Разработать макет главной страницы"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="8" Content="Реализовать авторизацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="9" Content="Подготовить презентацию"/>
+                         <CheckBox  Grid.Column="0" Grid.Row="10" Content="Разработать макет главной страницы"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="11" Content="Реализовать авторизацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="12" Content="Подготовить презентацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="13" Content="Подготовить презентацию"/>
+                        <CheckBox  Grid.Column="0" Grid.Row="14" Content="Подготовить презентацию"/>
+                    <Border Grid.Column="1" Grid.Row="1" Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="2" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="3" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="4" Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="5" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="6" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="7" Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="8" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="9" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="10" Background="#409500FF" Padding="2" Width="65" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Дизайн" Foreground="#7256BA" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="11" Background="#400015FF" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Разработка" Foreground="#5E80E6" HorizontalAlignment="Center"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="12" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="13" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                     <Border Grid.Column="1" Grid.Row="14" Background="#4022FF00" Padding="2" Width="90" Height="20" CornerRadius="3" HorizontalAlignment="Left">
+                        <TextBlock Text="Маркетинг" Foreground="#73B04F" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Grid.Column="2" Grid.Row="1" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="2" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="3" Text="13.05.2024" Margin="0,10"/>
+                     <TextBlock Grid.Column="2" Grid.Row="4" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="5" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="6" Text="13.05.2024" Margin="0,10"/>
+                     <TextBlock Grid.Column="2" Grid.Row="7" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="8" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="9" Text="13.05.2024" Margin="0,10"/>
+                     <TextBlock Grid.Column="2" Grid.Row="10" Text="15.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="11" Text="14.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="12" Text="13.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="13" Text="13.05.2024" Margin="0,10"/>
+                    <TextBlock Grid.Column="2" Grid.Row="14" Text="13.05.2024" Margin="0,10"/>
+                </Grid>
+            </Border>
+        </Grid>
+</UserControl>
